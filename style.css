@@ -1,4 +1,4 @@
-/*
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,10 +7,6 @@ body {
     min-height: 100vh;
 }
 
-a {
-    text-decoration: none;
-}
-*/
 
 * {
     margin: 0;
@@ -78,9 +74,13 @@ img {
 button {
     background-color: #3882F6;
     color: white;
+    border: 2px solid #3882F6;
     border-radius: 8px;
-    padding: 5px;
+    padding: 8px;
+    padding-right: 40px;
+    padding-left: 40px;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 /*         aaaaaaaaaaaaaaa          */
@@ -133,7 +133,6 @@ button {
     display: flex;
     padding: 200px;
     flex-direction: column;
-    
 }
 
 .quote-main {
@@ -148,3 +147,49 @@ button {
     display: flex;
     justify-content: flex-end;
 }
+
+/* aaaaaaaaaaa */
+
+.card {
+    display: flex;
+    margin: 100px 200px;
+    padding: 60px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    gap: 100px;
+}
+
+.card-group {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.card-desc {
+    font-size: 18px;
+}
+
+.card-button {
+    border: 2px solid white;
+}
+
+/* aaaaaaaaaaaaaa */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
