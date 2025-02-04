@@ -83,20 +83,11 @@ button {
     margin-top: 10px;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /*         aaaaaaaaaaaaaaa          */
 
 .info {
     display: flex;
     flex-direction: column;
-    margin-right: 100px;
-    margin-left: 100px;
-    padding-bottom: 100px;
 }
 
 .info-title {
@@ -113,6 +104,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 25px;
+    margin-bottom: 100px;
 }
 
 .info-element {
@@ -133,4 +125,26 @@ button {
     display: flex;
     text-align: center;
     max-width: 250px;
+    
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 200px;
+    flex-direction: column;
+    
+}
+
+.quote-main {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
