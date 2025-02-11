@@ -24,12 +24,14 @@ body {
     font-weight: bolder;
     color: #F9FAF8;
     max-width: 444px;
+    margin-bottom: 20px;
 }
 
 .main-desc {
     font-size: 18px;
     color: #E5E7EB;
     max-width: 444px;
+    margin-bottom: 20px;
 }
 
 .title {
