@@ -198,3 +198,8 @@ button {
     max-width: 240px;
     height: 240px;
 }
+
+.github-link {
+    padding: 5px;
+    text-decoration: underline;
+}
